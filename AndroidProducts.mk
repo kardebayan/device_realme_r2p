@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1801.mk
+    $(LOCAL_DIR)/stag_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX1801-user \
-    lineage_RMX1801-userdebug \
-    lineage_RMX1801-eng
+    stag_RMX1801-user \
+    stag_RMX1801-userdebug \
+    stag_RMX1801-eng
