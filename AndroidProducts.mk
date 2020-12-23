@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_RMX1801.mk
+    $(LOCAL_DIR)/cesium_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_RMX1801-user \
-    stag_RMX1801-userdebug \
-    stag_RMX1801-eng
+    cesium_RMX1801-user \
+    cesium_RMX1801-userdebug \
+    cesium_RMX1801-eng
