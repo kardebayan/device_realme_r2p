@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/realme/RMX1801/RMX1801-vendor.mk)
+$(call inherit-product, vendor/realme/r2p/r2p-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -33,7 +33,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp/packages/apps/Snap
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/realme/RMX1801
+PRODUCT_SOONG_NAMESPACES += device/realme/r2p
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -76,7 +76,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := RMX1801
+TARGET_OTA_ASSERT_DEVICE := r2p,RMX1801
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2340
@@ -368,7 +368,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_RMX1801
+    librecovery_updater_r2p
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -417,7 +417,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.RMX1801
+    android.hardware.usb@1.0-service.realme_sdm660
 
 # Vibrator
 PRODUCT_PACKAGES += \
