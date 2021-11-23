@@ -10,5 +10,11 @@
     "target_path": "kernel/realme/sdm660",
     "remote"     : "pixel-devices",
     "branch"     : "twelve"
+  },
+  {
+    "repository" : "ad1tyas1ngh/packages_apps_GCamGO",
+    "target_path": "packages/apps/GCamGO",
+    "remote"     : "github",
+    "branch"     : "main"
   }
 ]
