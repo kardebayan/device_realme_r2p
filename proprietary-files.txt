@@ -2599,6 +2599,13 @@ vendor/lib64/libllvm-qcom.so|f405f07c443129f0a82c87b528d690e26afcbe4e
 vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
 vendor/lib64/librs_adreno_sha1.so|21fc65066acc95b047f94b52ad7f2307c062043e
 
+# Graphics (Firmware)
+vendor/firmware/a512_zap.b00
+vendor/firmware/a512_zap.b01
+vendor/firmware/a512_zap.b02
+vendor/firmware/a512_zap.elf
+vendor/firmware/a512_zap.mdt
+
 # Graphics (HDR) - from LA.UM.8.2.r1-07500-sdm660.0
 vendor/lib/libhdr_tm.so|0104cdb2789ab1fb54b6b93564300f13ffeefc39
 vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
@@ -2622,22 +2629,6 @@ vendor/lib64/libsdmextension.so|1578d885acc4cc0a1dc941363c61cb95052c4d32
 # Graphics (Vulkan) - from LA.UM.8.2.r1-07500-sdm660.0
 vendor/lib/hw/vulkan.sdm660.so|976dc51608ebdbed8ced26809e3b776c47695c39
 vendor/lib64/hw/vulkan.sdm660.so|0b282ec0dc482134fd0ba168cd367a8a008ceb5f
-
-# Graphics Firmware
-vendor/firmware/a512_zap.b00
-vendor/firmware/a512_zap.b01
-vendor/firmware/a512_zap.b02
-vendor/firmware/a512_zap.elf
-vendor/firmware/a512_zap.mdt
-vendor/firmware/a530v1_pfp.fw
-vendor/firmware/a530v1_pm4.fw
-vendor/firmware/a530v2_seq.fw2
-vendor/firmware/a530v3_gpmu.fw2
-vendor/firmware/a530v3_seq.fw2
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
-vendor/firmware/a540_gpmu.fw2
 
 # Hypnus
 vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service
